@@ -289,6 +289,12 @@ footer .social-icons svg{
   footer{
     height: auto;
   }
+  footer .footer-list {
+    padding-right: 0;
+  }
+  footer .footer-list a{
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 480px){
@@ -296,9 +302,17 @@ footer .social-icons svg{
   grid-template-columns: 1fr 1fr ;
   margin-bottom: 0;
   }
-
+  footer .footer-list {
+  padding-right: 0;
+  }
   footer{
     height: auto;
+  }
+  footer .footer-list{
+    padding-right: 0;
+  }
+  footer .footer-list a{
+    padding-right: 0;
   }
 
   .download-buttons button{
@@ -408,8 +422,12 @@ footer .social-icons svg{
   footer img{
     padding-bottom: 5px;
   }
+  footer .footer-list {
+    padding-right: 0;
+  }
   footer .footer-list a{
     padding-right: 7px;
     font-size: 16px;
+    padding-right: 0;
   }
 } 
